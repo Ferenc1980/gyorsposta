@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="stylesheet" href="bootstrap.min.css" />
     <link rel="stylesheet" href="style.css">
+    <script src="menu.js"></script>
     
     <title>Gyorsposta</title>
 </head>
@@ -18,9 +19,9 @@
 	<div class="navbar-collapse collapse " id="menuid">
 		<ul class="navbar-nav ml-auto">
 			<li class="nav-item"><a class="nav-link" href="index.php">Főoldal</a></li>
-			<li class="nav-item"><a class="nav-link" href="index.php?p=napidij.php">Statisztika</a></li>
-			<li class="nav-item"><a class="nav-link" href="index.php?p=bevetelek.php">Ablak</a></li>
-			<li class="nav-item"><a class="nav-link" href="index.php?p=ujhajo.php">Új szolgáltatás</a></li>
+			<li class="nav-item"><a class="nav-link" href="index.php?p=statisztika.php">Statisztika</a></li>
+			<li class="nav-item"><a class="nav-link" href="index.php?p=ablak.php">Ablak</a></li>
+			<li class="nav-item"><a class="nav-link" href="index.php?p=szolgaltatas.php">Új szolgáltatás</a></li>
 			
 		</ul>
 	</div>

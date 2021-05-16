@@ -1,17 +1,29 @@
-
-
-.tarolo{
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    border: 1px solid gray;
+table{
+    margin: top 100px;
     width: 1000px;
-    background-color: lightgray;
-    text-align: justify;
-    padding:5px;
-    
 }
-#kep{
-    float: right;
-}
+
+  .tarolo{
+      margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 1px solid gray;
+      width: 1000px;
+      background-color: lightgray;
+  }
+  th,td{
+      text-align: center;
+  }
+  a{
+      color:white;
+  }
+  a:hover{
+       color: red;
+  }
+  p{
+      text-align: justify;
+  }
+  #kep{
+      float: right;
+  }
