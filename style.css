@@ -1,0 +1,17 @@
+
+
+.tarolo{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    border: 1px solid gray;
+    width: 1000px;
+    background-color: lightgray;
+    text-align: justify;
+    padding:5px;
+    
+}
+#kep{
+    float: right;
+}
