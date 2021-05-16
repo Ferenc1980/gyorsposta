@@ -16,6 +16,7 @@ $strtable="";
 
 
 ?>
+<h2>Statisztika</h2>
 </div>
             <div class="row justify-content-center">
             <div class="table" style="height:300px; overflow:scroll">

@@ -19,7 +19,7 @@ $strtable="";
         $id=$_POST["ablak"];
         $sql="SELECT b.nev,a.erkezett,a.sorrakerult,a.tavozott from ugyfel a,szolgaltatas b where b.id={$szolgaltatasid} and a.ablak={$ablak} order by a.erkezett";
         $stmt=$db->query($sql);
-        $strtable="<thead><th>Nev</th><th>Érkezett</th><th>Sorrakerült</th><th>Távozott</th></thead><tbody>";
+        $strtable="<thead class='thead-dark'><th>Nev</th><th>Érkezett</th><th>Sorrakerült</th><th>Távozott</th></thead><tbody>";
         while($row=$stmt->fetch()){
             extract($row);
             $strtable.="<tr><td>{$nev}</td><td>{$erkezett}</td><td>{$sorrakerult}</td><td>{$tavozott}</td></tr>";
